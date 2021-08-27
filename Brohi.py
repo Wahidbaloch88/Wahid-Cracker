@@ -1,6 +1,6 @@
 # -*- coding: utf-8
 
-# author by Bilal Haider
+# author by ABDUL WAHID
 
 import os
 
