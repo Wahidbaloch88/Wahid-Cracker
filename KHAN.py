@@ -1,5 +1,5 @@
 # -*- coding: utf-8
-# author by Abdul Wahid
+# author by Wahid Baloch
 import os
 try:
 	import requests
@@ -109,16 +109,16 @@ def menu():
 	Bilal = raw_input("\n\033[1;97m[\033[1;94m+\033[1;97m] Chouse : ")
 	if Bilal =="":
 		menu()
-	elif Wahid == "1" or Wahid == "01":
+	elif Bilal == "1" or Bilal == "01":
 		publik()
 		method()
-	elif Wahid == "2" or Wahid == "02":
+	elif Bilal == "2" or Bilal == "02":
 		follower()
 		method()
-	elif Wahid == "3" or Wahid == "03":
+	elif Bilal == "3" or Bilal == "03":
 		massal()
 		method()
-	elif Wahid == "4" or Wahid == "04":
+	elif Bilal == "4" or Bilal == "04":
 		print("\n\033[1;97m[\033[1;94m01\033[1;97m] Chack Result OK")
 		print("\033[1;97m[\033[1;94m02\033[1;97m] Chack Result CP")
 		cek = raw_input("\n\033[1;97m[\033[1;94m+\033[1;97m] Chouse : ")
@@ -164,9 +164,9 @@ def menu():
 			exit(" ")
 		else:
 			menu()
-	elif Wahid == "5" or Wahid == "05":
+	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
-	elif Wahid == "0" or Wahid == "00":
+	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;97m[\033[1;94m!\033[1;97m] Token Removed")
 	else:
