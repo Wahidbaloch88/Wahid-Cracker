@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
-#Coder Wahid Baloch [Tech-Wahid]
+#Coder Bilal Haider [Bilal-XD]
 
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
